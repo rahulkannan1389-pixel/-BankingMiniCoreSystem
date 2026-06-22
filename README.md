@@ -1,5 +1,5 @@
 
-### Banking Mini Core System
+## Banking Mini Core System
  Spring Boot–based mini banking application that simulates real-world banking operations such as customer management, account handling, fund transactions, and reporting.
 ## REST API DOCUMENTATION
 ##  Base URL
@@ -40,7 +40,7 @@ http://localhost:7070/api
 ## Swagger UI
 http://localhost:7070/swagger-ui/index.html
 
-#  DATABASE SCHEMA
+##  DATABASE SCHEMA
 ##  Entities
 ## Customer
 - id (Primary Key)
@@ -117,7 +117,7 @@ INSERT INTO TRANSACTION VALUES
 ##  Transfer Flow
 - The transfer operation follows a layered architecture where the request flows through controller, service, repository, and database layers.
 - Client → Controller → Service → Repository → Database → Response
-# Detailed Flow:
+## Detailed Flow:
 - Client initiates transfer API request  
 - Controller receives and validates request  
 - Service layer processes business logic  
